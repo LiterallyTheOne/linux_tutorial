@@ -49,4 +49,31 @@ the output of ``ls`` would be:
 
     directory_test_1  directory_test_2  file_test_1.txt  file_test_2.txt
 
+There are some important options for ls that we are
+going to discuss some of them in further.
+
+option -a
+^^^^^^^^^
+
+``-a`` stands for all.
+When we use this option, it shows all the files
+despite being hidden or not.
+For example if we have a hidden file in the
+directory's structure above with the name of
+``.hidden_file_1.txt`` the output of ``ls -a``
+would be:
+
+.. code-block:: text
+
+    .  ..  directory_test_1  directory_test_2  file_test_1.txt  file_test_2.txt  .hidden_file_1.txt
+
+Which ``.`` represents the current directory, ``..``
+represents the parent directory.
+
+option -l
+^^^^^^^^^
+
+``-l`` stands for ``long``.
+If you use this option, it shows all the files
+with some extra details.
 
