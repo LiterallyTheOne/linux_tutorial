@@ -7,11 +7,3 @@ Welcome to linux_tutorial's documentation!
 
     pwd_ls
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
