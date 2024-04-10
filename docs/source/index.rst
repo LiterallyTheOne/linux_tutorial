@@ -5,7 +5,7 @@ Welcome to linux_tutorial's documentation!
     :maxdepth: 2
     :caption: Contents:
 
-    pwd_ls_cd
+    pwd_ls
 
 
 
