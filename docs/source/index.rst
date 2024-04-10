@@ -1,5 +1,5 @@
-Welcome to linux_tutorial's documentation!
-==========================================
+Linux tutorial
+==============
 
 .. toctree::
     :maxdepth: 2
