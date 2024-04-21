@@ -76,4 +76,17 @@ option -l
 ``-l`` stands for ``long``.
 If you use this option, it shows all the files
 with some extra details.
+Including file permissions, number of links to this file,
+owner, group, creation date, name.
+for example one the output of ``ls -l`` can be:
+
+.. code-block:: text
+
+    total 8
+    drwxr-xr-x 3 ramin ramin 4096 Mar 16 12:00 directory_test_1
+    drwxr-xr-x 2 ramin ramin 4096 Mar 16 12:00 directory_test_2
+    -rw-r--r-- 1 ramin ramin    0 Mar 16 11:59 file_test_1.txt
+    -rw-r--r-- 1 ramin ramin    0 Mar 16 11:59 file_test_2.txt
+
+
 
