@@ -77,7 +77,7 @@ option -l
 If you use this option, it shows all the files
 with some extra details.
 Including file permissions, number of links to this file,
-owner, group, creation date, name.
+owner, group, size in bytes, creation date, name.
 for example one the output of ``ls -l`` can be:
 
 .. code-block:: text
